@@ -2,6 +2,7 @@
   "name": "react-cam-snapper",
   "version": "0.0.1",
   "description": "A Webcam snapshot gif like thing creator",
+  "main": "dist/main.js",
   "scripts": {
     "prettier": "prettier --config .prettierrc.js --write \"**/*.{json,js,ts,tsx}\"",
     "lint": "eslint . --ext .ts,.tsx --fix",
@@ -25,14 +26,9 @@
     "url": "git+https://github.com/PaulieScanlon/react-svg-cam-snapper.git"
   },
   "keywords": [
-    "React",
-    "Svg",
-    "BubbleSlider"
+    "React"
   ],
   "author": "Paul Scanlon",
-  "contributors": [
-    "Chris Gannon"
-  ],
   "bugs": {
     "url": "https://github.com/PaulieScanlon/react-svg-cam-snapper/issues"
   },
