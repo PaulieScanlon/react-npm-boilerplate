@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.copyFile('./README.md', './react-cam-snapper/README.md', (err) => {
+fs.copyFile('./README.md', './my-node-module/README.md', (err) => {
   if (err) {
     throw err;
   }

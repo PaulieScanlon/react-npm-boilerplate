@@ -1,20 +1,20 @@
 {
   "private": true,
   "scripts": {
-    "prettier": "yarn workspace react-cam-snapper prettier",
-    "lint": "yarn workspace react-cam-snapper lint",
-    "lint:fix": "yarn workspace react-cam-snapper lint:fix",
+    "prettier": "yarn workspace my-node-module prettier",
+    "lint": "yarn workspace my-node-module lint",
+    "lint:fix": "yarn workspace my-node-module lint:fix",
     "develop": "yarn workspace demo develop",
-    "build": "yarn workspace react-cam-snapper build",
-    "test": "yarn workspace react-cam-snapper test",
-    "test:watch": "yarn workspace react-cam-snapper test:watch",
-    "test:coverage": "yarn workspace react-cam-snapper test:coverage",
-    "storybook": "yarn workspace react-cam-snapper storybook",
-    "storybook:build": "yarn workspace react-cam-snapper storybook:build",
-    "release": "node copy-readme.js && yarn workspace react-cam-snapper release"
+    "build": "yarn workspace my-node-module build",
+    "test": "yarn workspace my-node-module test",
+    "test:watch": "yarn workspace my-node-module test:watch",
+    "test:coverage": "yarn workspace my-node-module test:coverage",
+    "storybook": "yarn workspace my-node-module storybook",
+    "storybook:build": "yarn workspace my-node-module storybook:build",
+    "release": "node copy-readme.js && yarn workspace my-node-module release"
   },
   "workspaces": [
     "demo",
-    "react-cam-snapper"
+    "my-node-module"
   ]
 }

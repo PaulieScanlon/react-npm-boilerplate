@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "version": "1.0.0",
-  "description": "A Gatsby demo for react-cam-snapper",
+  "description": "A Gatsby demo for my-node-module",
   "main": "index.js",
   "scripts": {
     "clean": "gatsby clean",
@@ -16,6 +16,6 @@
     "gatsby": "^2.23.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-cam-snapper": "*"
+    "my-node-module": "*"
   }
 }

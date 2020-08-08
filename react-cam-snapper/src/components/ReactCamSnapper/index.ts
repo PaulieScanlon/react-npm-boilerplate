@@ -1,1 +1,0 @@
-export { ReactCamSnapper } from './ReactCamSnapper'
